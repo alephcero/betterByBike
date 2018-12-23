@@ -1,0 +1,40 @@
+html, body {
+  width: 100%;height: 100%;margin: 0;padding: 0;}
+
+#map {
+  position:absolute;top:0;bottom:0;right:0;left:0;}
+
+#map_cd1f3eb8ff5d47139980d3d9479a872c {
+    position: relative;
+    width: 100.0%;
+    height: 100.0%;
+    left: 0.0%;
+    top: 0.0%;
+    }
+
+.contenedor{
+    	width: 100%;
+    	height: 600px;
+    }
+
+.contenedorIzq{
+    	width: 25%;
+    	height: 600px;
+    	float: left;
+    }
+.contenedorCentro{
+      width: 50%;
+      height: 600px;
+      float: left;
+}
+#mapa {
+    	width: 100%;
+    	height: 600px;
+    }
+#map_9d5c4e8ba5cc4371a687d2d5f15051b5 {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }

@@ -1,0 +1,53 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Mejor en Bici</title>
+  <meta name="description" content="Un proyetco para mostrar por que es mejor viajer en bici en Buenos Aires">
+  <meta name="author" content="alehpcero">
+  <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+  <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+  <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+<!-- agregados con mapa comparativo auto-->
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+
+  <script>
+  $(function(){
+    $("#includedContent").load("bici_vs_auto.html");
+  });
+  </script>
+</head>
+
+<body>
+  <div class='contenedor100'>
+    <div class='contenedorIzq'></div>
+  <div class='contenedorCentro'>
+      <p>hola</p>
+      <div class="folium-map" id="map_cd1f3eb8ff5d47139980d3d9479a872c" ></div>
+      <p>chau</p>
+      <div class="folium-map" id="map_9d5c4e8ba5cc4371a687d2d5f15051b5" ></div>
+      <div id="includedContent"></div>
+      <p> imagen</p>
+      <img src="poblacion_por_comparacion.png" alt="poblaicon" height="500" width="500">
+      <img src="poblacion_por_modo_mas_rapido.png" alt="poblaiconrapida" height="500" width="500">
+  </div>
+  </div>
+  </body>
+  <script src="js/mapa.js"></script>
+  <script src="js/biciVauto.js"></script>
+  </html>
