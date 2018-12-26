@@ -28,9 +28,15 @@
 
   <script>
   $(function(){
-    $("#includedContent").load("bici_vs_auto.html");
+    $("#bici_vs_auto").load("bici_vs_auto.html");
   });
   </script>
+  <script>
+  $(function(){
+    $("#modo_mas_rapido").load("modo_mas_rapido.html");
+  });
+  </script>
+
 </head>
 
 <body>
@@ -39,15 +45,19 @@
   <div class='contenedorCentro'>
       <p>hola</p>
       <div class="folium-map" id="map_cd1f3eb8ff5d47139980d3d9479a872c" ></div>
-      <p>chau</p>
+      <p>modo mas rapido</p>
+      <div class="folium-map" id="map_0ca8a9cba2d041a1bb4b9ac91a7687d2" ></div>
+      <div id="modo_mas_rapido"></div>
+      <p>bici v auto</p>
       <div class="folium-map" id="map_9d5c4e8ba5cc4371a687d2d5f15051b5" ></div>
-      <div id="includedContent"></div>
+      <div id="bici_vs_auto"></div>
       <p> imagen</p>
-      <img src="poblacion_por_comparacion.png" alt="poblaicon" height="500" width="500">
-      <img src="poblacion_por_modo_mas_rapido.png" alt="poblaiconrapida" height="500" width="500">
+      <img src="poblacion_por_comparacion.png" alt="poblacion" height="500" >
+      <img src="poblacion_por_modo_mas_rapido.png" alt="poblaiconrapida" height="500">
   </div>
   </div>
   </body>
   <script src="js/mapa.js"></script>
   <script src="js/biciVauto.js"></script>
+  <script src="js/modo_mas_rapido.js"></script>
   </html>
