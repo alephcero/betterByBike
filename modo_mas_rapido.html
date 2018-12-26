@@ -33,7 +33,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>jQuery UI Draggable - Default functionality</title>
+  <title>Modo mas rapido</title>
   <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 
   <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
@@ -44,9 +44,9 @@
     $( "#maplegend" ).draggable({
                     start: function (event, ui) {
                         $(this).css({
-                            right: "100px",
-                            top: "100px",
-                            bottom: "100px"
+                            right: "auto",
+                            top: "auto",
+                            bottom: "auto"
                         });
                     }
                 });
@@ -59,7 +59,7 @@
 
 <div id='maplegend' class='maplegend'
     style='position: absolute; z-index:9999; border:2px solid grey; background-color:rgba(255, 255, 255, 0.8);
-     border-radius:6px; padding: 10px; font-size:14px; right: 20px; bottom: 20px;'>
+     border-radius:6px; padding: 10px; font-size:14px; left: 20px; top: 20px;'>
 
 <div class='legend-title'>Modo mas rapido</div>
 <div class='legend-scale'>
